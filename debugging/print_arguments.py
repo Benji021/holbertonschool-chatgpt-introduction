@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 import sys
 
-for index, arg in enumerate(sys.argv):
-    print(f"Argument {index}: {arg}")
+for i in range(1, len(sys.argv)):
+    print(sys.argv[i])
