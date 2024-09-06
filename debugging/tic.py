@@ -36,5 +36,4 @@ def tic_tac_toe():
             if player == "X":
                 player = "O"
             else:
-                player =
-
+                player = "X"
